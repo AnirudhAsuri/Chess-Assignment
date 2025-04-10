@@ -37,49 +37,6 @@ namespace Chess.Scripts.Core
         new Vector2Int(-1, -1)   // Bottom-left
         };
 
-
         public abstract List<Vector2Int> GetPossibleMoves();
-
-        public void HighlightPossibleMoves()
-        {
-            var moves = GetPossibleMoves();
-            Debug.Log($"Got {moves.Count} possible moves");
-
-            ChessBoardPlacementHandler.Instance.ClearHighlights();
-            foreach (var move in moves)
-            {
-                ChessBoardPlacementHandler.Instance.Highlight(move.x, move.y);
-            }
-        }
-
-        public bool TryAddMove(Vector2Int pos, ref List<Vector2Int> moves)
-        {
-            Debug.Log("MOO");
-            var tile = ChessBoardPlacementHandler.Instance.GetTile(pos.y, pos.x);
-            if (tile == null) return false;
-
-            // Check if any piece occupies the tile at pos
-            ChessPiece[] allPieces = FindObjectsOfType<ChessPiece>();
-            foreach (var piece in allPieces)
-            {
-                if (piece.boardPosition == pos)
-                {
-                    if (piece.isEnemy)
-                    {
-                        moves.Add(pos);
-                        break;
-                    }
-                    return false;
-                }
-            }
-
-            moves.Add(pos);
-            return true;
-        }
-
-        public bool IsInsideBoard(Vector2Int pos)
-        {
-            return pos.x >= 0 && pos.x < 8 && pos.y >= 0 && pos.y < 8;
-        }
     }
 }

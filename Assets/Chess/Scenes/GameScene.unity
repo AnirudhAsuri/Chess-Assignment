@@ -958,7 +958,6 @@ GameObject:
   - component: {fileID: 280411636}
   - component: {fileID: 280411637}
   - component: {fileID: 280411638}
-  - component: {fileID: 280411639}
   - component: {fileID: 280411640}
   m_Layer: 0
   m_Name: Rook
@@ -1046,22 +1045,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   row: 5
   column: 4
---- !u!114 &280411639
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 280411635}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
-  column: 0
 --- !u!114 &280411640
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2403,7 +2386,6 @@ GameObject:
   - component: {fileID: 436799126}
   - component: {fileID: 436799127}
   - component: {fileID: 436799128}
-  - component: {fileID: 436799129}
   m_Layer: 0
   m_Name: Pawn
   m_TagString: Untagged
@@ -2490,22 +2472,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   row: 7
   column: 0
---- !u!114 &436799129
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436799125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
-  column: 0
 --- !u!1 &451512796
 GameObject:
   m_ObjectHideFlags: 0
@@ -2517,7 +2483,6 @@ GameObject:
   - component: {fileID: 451512797}
   - component: {fileID: 451512798}
   - component: {fileID: 451512799}
-  - component: {fileID: 451512800}
   m_Layer: 0
   m_Name: King
   m_TagString: Untagged
@@ -2604,22 +2569,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   row: 0
   column: 4
---- !u!114 &451512800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451512796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
-  column: 0
 --- !u!1 &475358343 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1747040061790202917, guid: 04d020990b5331f4e9f857ad4399bc56, type: 3}
@@ -4565,7 +4514,6 @@ GameObject:
   - component: {fileID: 1285433204}
   - component: {fileID: 1285433205}
   - component: {fileID: 1285433206}
-  - component: {fileID: 1285433207}
   - component: {fileID: 1285433208}
   m_Layer: 0
   m_Name: Bishop
@@ -4653,22 +4601,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   row: 3
   column: 5
---- !u!114 &1285433207
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285433203}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
-  column: 0
 --- !u!114 &1285433208
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4923,7 +4855,6 @@ GameObject:
   - component: {fileID: 1342563077}
   - component: {fileID: 1342563078}
   - component: {fileID: 1342563079}
-  - component: {fileID: 1342563080}
   - component: {fileID: 1342563081}
   m_Layer: 0
   m_Name: Knight
@@ -5011,22 +4942,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   row: 0
   column: 1
---- !u!114 &1342563080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1342563076}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
-  column: 0
 --- !u!114 &1342563081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7179,7 +7094,6 @@ GameObject:
   - component: {fileID: 2003609497}
   - component: {fileID: 2003609498}
   - component: {fileID: 2003609499}
-  - component: {fileID: 2003609500}
   - component: {fileID: 2003609501}
   m_Layer: 0
   m_Name: Rook
@@ -7266,22 +7180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   row: 3
-  column: 0
---- !u!114 &2003609500
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003609496}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7583e41e4e5af94abb7813d794c6535, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  placementHandler: {fileID: 0}
-  <team>k__BackingField: 0
-  row: 0
   column: 0
 --- !u!114 &2003609501
 MonoBehaviour:

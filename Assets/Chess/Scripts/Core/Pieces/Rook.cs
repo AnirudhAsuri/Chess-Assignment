@@ -14,10 +14,10 @@ namespace Chess.Scripts.Core.Pieces
             {
                 var current = boardPosition + direction;
                 Debug.Log("Hey");
-                while (IsInsideBoard(current))
+                while (MoveUtility.IsInsideBoard(current))
                 {
                     Debug.Log("Hey");
-                    if (!TryAddMove(current, ref possibleMoves))
+                    if (!MoveUtility.TryAddMove(current, ref possibleMoves, this))
                         break;
 
                     current += direction;

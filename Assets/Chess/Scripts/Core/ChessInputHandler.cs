@@ -67,7 +67,7 @@ namespace Chess.Scripts.Core
         private void SelectPiece(ChessPiece piece)
         {
             Debug.Log(piece);
-            piece.HighlightPossibleMoves();
+            ChessPieceHighlighter.HighlightPossibleMoves(piece);
         }
     }
 }

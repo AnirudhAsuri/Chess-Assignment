@@ -25,7 +25,7 @@ namespace Chess.Scripts.Core.Pieces
             {
                 var current = boardPosition + direction;
 
-                if (IsInsideBoard(current))
+                if (MoveUtility.IsInsideBoard(current))
                 {
                     // The Knight can jump over pieces, so no need to check for occupancy
                     // Simply add the move if it's a valid tile

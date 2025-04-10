@@ -13,9 +13,9 @@ namespace Chess.Scripts.Core.Pieces
             {
                 var current = boardPosition + direction;
 
-                while (IsInsideBoard(current))
+                while (MoveUtility.IsInsideBoard(current))
                 {
-                    if (!TryAddMove(current, ref possibleMoves))
+                    if (!MoveUtility.TryAddMove(current, ref possibleMoves, this))
                         break;
 
                     current += direction;
